@@ -17,6 +17,9 @@
  * along with mescc-tools.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef _HEX2_GLOBALS_H
+#define _HEX2_GLOBALS_H
+
 #include "hex2.h"
 
 /* Global variables */
@@ -48,3 +51,5 @@ void pad_to_align(int write);
 int hex(int c, FILE* source_file);
 int octal(int c, FILE* source_file);
 int binary(int c, FILE* source_file);
+
+#endif

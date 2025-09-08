@@ -17,6 +17,9 @@
  * along with mescc-tools.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef _HEX2_H
+#define _HEX2_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -55,3 +58,4 @@ struct entry
 	char* name;
 };
 
+#endif

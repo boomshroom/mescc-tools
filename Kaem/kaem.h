@@ -16,6 +16,9 @@
  * along with mescc-tools.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef _KAEM_H
+#define _KAEM_H
+
 #include <stdio.h>
 #include "../M2libc/bootstrappable.h"
 
@@ -55,3 +58,4 @@ struct Token
 };
 
 #include "kaem_globals.h"
+#endif

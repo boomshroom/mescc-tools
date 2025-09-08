@@ -16,6 +16,9 @@
  * along with mescc-tools.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef _KAEM_GLOBALS_H
+#define _KAEM_GLOBALS_H
+
 extern int command_done;
 extern int VERBOSE;
 extern int VERBOSE_EXIT;
@@ -32,3 +35,5 @@ extern struct Token* token;
 extern struct Token* env;
 /* Alias linked-list; stores the aliases */
 extern struct Token* alias;
+
+#endif
